@@ -24,4 +24,13 @@ Cervical cancer is one of the most common and deadly diseases in women, especial
 ---
 
 ## 🗃️ Project Structure
+├── src/
+│   ├── train_model.py          # Trains and saves the CNN model
+│   └── utils.py                # (Optional) Helper functions if any
+├── app.py                      # Flask app for frontend/backend integration
+├── model/
+│   └── cnn_model.h5            # Trained CNN model (tracked via Git LFS)
+├── dataset/                    # Folder containing organized cervical cancer images
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project overview and instructions
 
